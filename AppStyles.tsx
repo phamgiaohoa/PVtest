@@ -68,7 +68,7 @@ export default StyleSheet.create({
   modalHeaderText: {
     color: 'black',
     fontSize: 20,
-    fontFamily: 'bold',
+    // fontFamily: 'bold',
   },
   input: {
     height: 40,
@@ -80,6 +80,7 @@ export default StyleSheet.create({
     color: 'black',
   },
   input2: {
+    height: 100,
     marginHorizontal: 12,
     borderWidth: 1,
     borderColor: '#E6E6E6',
@@ -109,7 +110,7 @@ export default StyleSheet.create({
   },
   textTime: {
     color: '#E6E6E6',
-    fontFamily: 'bold',
+    // fontFamily: 'bold',
     marginLeft: 20,
   },
 
@@ -132,9 +133,9 @@ export default StyleSheet.create({
   },
   textReminds: {
     color: '#E6E6E6',
-    fontFamily: 'bold',
+    // fontFamily: 'bold',
   },
-  textSelect: {color: '#E6E6E6', fontFamily: 'bold', margin: 12},
+  textSelect: {color: '#E6E6E6', margin: 12},
   viewType: {
     marginHorizontal: 12,
     flexDirection: 'row',
